@@ -1,0 +1,8 @@
+[Unit]
+Description= boot_msg service
+
+[Service]
+ExecStart=/usr/local/bin/boot_msg.sh
+
+[Install]
+WantedBy=multi-user.target
